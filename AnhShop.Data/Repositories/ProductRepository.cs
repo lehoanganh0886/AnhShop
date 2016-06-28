@@ -3,7 +3,7 @@ using AnhShop.Model.Models;
 
 namespace AnhShop.Data.Repositories
 {
-    public interface IProductRepository
+    public interface IProductRepository : IRepository<Product>
     {
     }
 
